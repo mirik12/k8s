@@ -9,7 +9,7 @@ spec:
       volumeMounts:
         - mountPath: /cache
           name: aws-volume
-  volumes:
+  volumes: #volume aws
     - name: aws-volume
       # This AWS EBS volume must already exist.
       awsElasticBlockStore:
